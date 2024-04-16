@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Undertale Development</title>
+	<link rel="shortcut icon" href="img/heart.png">
+	<link rel="stylesheet" href="css/game.css">
+	<script src="js/jquery.js"></script>
+</head>
+<body onload="AnimatedInitialize();">
+	<span id="frameRate">
+		<noscript>Your Browser does not support JavaScript. Sorry :(</noscript>
+	</span>
+	<div class="index_pageFadeIn"></div>
+
+	<div class="game">
+		<span class="sound_display" onclick="sound_toggle('off');">SOUND : ON</span>
+		<div class="game_screen">
+			<div class="game_raidline">
+				<div class="game_raid"><img class="game_raidimg"></div>
+				<div class="game_say"></div>
+			</div>
+			<div class="game_console">
+				<div class="game_notice"></div>
+				<div class="gameline">
+					<div id="_character" class="_character"></div>
+				</div>
+			</div>
+			<div class="game_status">
+				<div id="game-name" class="game_status_contents">
+				</div>
+				<div id="game-love" class="game_status_contents">LV 1 | </div>
+				<div id="game-hp" class="game_status_contents">HP : 20 / 20 | </div>
+				<div id="game-score" class="game_status_contents">SCORE : 0</div>
+			</div>
+			<div class="gamemenu">
+				<div id="button_fight" class="game_button">FIGHT</div>
+				<div id="button_act" class="game_button">ACT</div>
+				<div id="button_item" class="game_button">ITEM</div>
+				<div id="button_mercy" class="game_button">MERCY</div>
+			</div>
+		</div>
+		<script src="js/game.js"></script>
+		<script src="js/patterns.js"></script>
+		<script src="js/events.js"></script>
+		<script>
+			var ss=0;
+			var dd=1;
+			var ff=1;
+			var tt=0;
+	</script>
+	</div>
+</body>
+</html>

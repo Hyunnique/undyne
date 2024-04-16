@@ -1,0 +1,127 @@
+@font-face
+{
+	font-family: 'Determination Sans';
+	src: url('../lib/DeterminationSansWeb.woff') format("woff");
+}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+
+	-ms-user-select: none; 
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+
+	font-family: 'Determination Sans', sans-serif;
+}
+
+.index_pageFadeout
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.intro
+{
+	display: none;
+	position: fixed;
+}
+
+.intro img
+{
+	width: 500px;
+	height: 112px;
+}
+
+.desc
+{
+	width: 450px;
+	height: 200px;
+	display: none;
+	position: fixed;
+	color: gray;
+	font-size: 20pt;
+}
+
+.index_main
+{
+	width: 420px;
+	height: 500px;
+	text-align: center;
+	position: fixed;
+	color: white;
+	font-size: 24pt;
+	display: none;
+}
+
+.index_myname
+{
+	color: white;
+	font-size: 22pt;
+	height: 40px;
+}
+
+.naming_pad
+{
+	text-align: left;
+}
+
+.naming_menu
+{
+	text-align: center;
+}
+
+.index_p
+{
+	color: yellow;
+}
+
+.intro_char
+{
+	text-align: center;
+	width: 60px;
+	height: 25px;
+	display: inline-block;
+	color: white;
+	font-size: 22pt;
+}
+
+.intro_menu0
+{
+	text-align: left;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	color: white;
+	font-size: 22pt;
+}
+
+.intro_menu1
+{
+	text-align: center;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	color: white;
+	font-size: 22pt;
+}
+
+.intro_menu2
+{
+	text-align: right;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	color: white;
+	font-size: 22pt;
+}

@@ -1,0 +1,205 @@
+@font-face
+{
+	font-family: 'Determination Sans';
+	src: url('../lib/DeterminationSansWeb.woff') format("woff");
+}
+
+@font-face
+{
+	font-family: 'Determination Mono';
+	src: url('../lib/DeterminationMonoWeb.woff') format("woff");
+}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+
+	-ms-user-select: none; 
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+
+	font-family: 'Determination Sans', sans-serif;
+}
+
+.index_pageFadeIn
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.game
+{
+	display: none;
+}
+
+.game_raidline
+{
+	width: 600px;
+	height: 175px;
+	margin: 60px auto 30px auto;
+	text-align: center;
+}
+
+.game_raid
+{
+	display: inline-block;
+	width: 130px;
+	height: 175px;
+}
+
+.game_raidimg
+{
+	width: inherit;
+	height: inherit;
+}
+
+.game_say
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	width: 170px;
+	height: 130px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	text-align: left;
+
+	font-family: 'Determination Mono', sans-serif;
+	font-size: 12pt;
+}
+
+.game_screen
+{
+	width: 660px;
+	height: 680px;
+	margin: 30px auto;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.sound_display
+{
+	text-align: right;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	color: white;
+	font-size: 14pt;
+}
+
+.gameline
+{
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	border: 3px solid white;
+	border-radius: 3px;
+}
+
+.game_console
+{
+	width: 600px;
+	height: 250px;
+	margin: 10px auto 0 auto;
+	border: 2px solid white;
+	border-radius: 4px;
+}
+
+.game_status
+{
+	margin: 15px auto 0 auto;
+	width: 600px;
+	color: yellow;
+	font-size: 22pt;
+}
+
+.game_status_contents
+{
+	display: inline-block;
+}
+
+._character
+{
+	width: 12px;
+	height: 12px;
+	position: fixed;
+	top: 500px;
+	left: 500px;
+	background-image: url("../img/soul_red.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#frameRate
+{
+	 position: fixed;
+	 top: 10px;
+	 left: 10px;
+	 color: black;
+	 font-size: 14pt;
+	 z-index: 1;
+}
+
+.game_button
+{
+	width: 140px;
+	height: 50px;
+	border: 3px solid coral;
+	border-radius: 5px;
+	color: coral;
+	text-align: center;
+	display: inline-block;
+	font-size: 30pt;
+	margin: 0 0.5px;
+}
+
+.gamemenu
+{
+	width: 600px;
+	height: 60px;
+	margin: 30px auto 0 auto;
+}
+
+.game_notice
+{
+	color: white;
+	font-size: 24pt;
+	padding: 20px;
+}
+
+.gameObject_love_flowey
+{
+	display: none;
+	width: 8px;
+	height: 4px;
+	border: 1px solid white;
+	border-radius: 8px;
+	position: fixed;
+}
+
+.undyne_spear
+{
+	background-image: url("../img/undyne_spear.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 9px;
+	position: fixed;
+}
+
+#undyne_spear_hitbox
+{
+	width: 100%;
+	height: 8px;
+}
